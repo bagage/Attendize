@@ -120,8 +120,10 @@
                                     <td colspan="3">
                                         @if(!$is_free_event)
                                             <div class="hidden-xs pull-left">
+                                                @if(false)
                                                 <img class=""
                                                      src="{{asset('assets/images/public/EventPage/credit-card-logos.png')}}"/>
+                                                @endif
                                                 @if($event->enable_offline_payments)
 
                                                     <div class="help-block" style="font-size: 11px;">

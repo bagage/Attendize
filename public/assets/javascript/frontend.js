@@ -4735,14 +4735,15 @@ function log() {
     $('.card-number').payment('formatCardNumber');
     $('.card-cvc').payment('formatCardCVC');
 
-    $('#pay_offline').change(function () {
-        $('.online_payment').toggle(!this.checked);
-        $('.offline_payment').toggle(this.checked);
+    // $('#pay_offline').change(function () {
+    //     $('.online_payment').toggle(!this.checked);
+    //     $('.offline_payment').toggle(this.checked);
 
-        // Disable CC form inputs to prevent Chrome trying to validate hidden fields
-        $('.online_payment input,  .online_payment select').attr('disabled', this.checked);
+    //     // Disable CC form inputs to prevent Chrome trying to validate hidden fields
+    //     $('.online_payment input,  .online_payment select').attr('disabled', this.checked);
 
-    }).change();
+    // }).change();
+    $('.online_payment input,  .online_payment select').attr('disabled', true); // gautier disable online payment for now
 
     // Apply access code here to unlock hidden tickets
     $('#apply_access_code').click(function(e) {
