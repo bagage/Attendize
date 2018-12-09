@@ -73,7 +73,7 @@ return array (
   'ticket_price' => 'Prix du billet',
   'tickets' => 'Billets',
   'tickets_are_currently_unavailable' => 'Les billets ne sont pas disponibles actuellement',
-  'time' => 'Merci de noter que vous n\'avez que :time pour terminer cette transaction avant que vos blilets ne soient remis en vente.',
+  'time' => 'Merci de noter que vous n\'avez que :time pour terminer cette transaction avant que vos billets ne soient remis en vente.',
   'total' => 'Total',
   'your_email_address' => 'Votre adresse de courriel',
   'your_information' => 'Vos informations',
