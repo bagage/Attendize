@@ -224,7 +224,7 @@
 
                 @if($event->pre_order_display_message)
                 <div class="well well-small">
-                    {!! nl2br(e($event->pre_order_display_message)) !!}
+                    {!! Markdown::parse($event->pre_order_display_message) !!}
                 </div>
                 @endif
 
